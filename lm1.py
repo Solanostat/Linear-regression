@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt 
 
-df = pd.read_csv('ex1data1.txt', header = None, names = ['x','y'])
+df = pd.read_csv('dataset.txt', header = None, names = ['x','y'])
 x = np.array(df.x)
 y = np.array(df.y)
 theta = np.zeros((2,1))
