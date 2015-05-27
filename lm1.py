@@ -1,10 +1,10 @@
 #Linear Regression and plotting using libraries
 
+import math
 from __future__ import division
 import pandas as pd 
 import numpy as np 
 import matplotlib.pyplot as plt 
-import math
 
 df = pd.read_csv('ex1data1.txt', header = None, names = ['x','y'])
 x = np.array(df.x)
